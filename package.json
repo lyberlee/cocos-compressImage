@@ -1,0 +1,14 @@
+{
+  "name": "post-compress-img",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {},
+  "dependencies": {
+    "img-diff-js": "0.5.2",
+    "imagemin": "7.0.1",
+    "imagemin-mozjpeg": "7.0.0",
+    "imagemin-pngquant": "9.0.2"
+  }
+}
