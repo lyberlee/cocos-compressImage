@@ -134,7 +134,7 @@ async function postBulildCompress (options) {
         }
 
         const startTime = Date.now();
-        const imgInfos = []; // 图片路径信息
+        const imgInfos = []; // 图片路径信息日志
         const bundles = options.bundles || []; // 构建结果的bundles
         const spineImgUUids = []; // spine 资源依赖的图片uuid
         const spineUUids = await getSpineUUid();
